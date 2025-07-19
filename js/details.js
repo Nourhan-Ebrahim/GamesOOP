@@ -3,7 +3,8 @@ export class GameDetails {
     document.getElementById('games').classList.add('d-none');
     document.getElementById('gamesDetails').classList.remove('d-none');
 
-    const response = await fetch(`https:free-to-play-games-database.p.rapidapi.com/api/game?id=${id}`, {
+const response = await fetch(`https://free-to-play-games-database.p.rapidapi.com/api/game?id=${id}`, {
+ 
       method: 'GET',
       headers: {
         'x-rapidapi-key': '4bfc66caf7msh4117bbcd2427e29p122e21jsnad95c9bfd801',

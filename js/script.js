@@ -131,3 +131,7 @@ navLink.forEach(function(item){
   })
 })
 getAllGames('shooter');
+window.getDetails = function(id) {
+  details.getGameDetails(id);
+  document.querySelector('nav').classList.add('d-none');
+};
