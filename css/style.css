@@ -1,0 +1,83 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color:#272b30;
+
+}
+nav {
+    background-color: rgb(58, 73, 123) !important;
+        box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+      margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+}
+nav.navbar {
+  z-index: 10;
+  position: relative;
+}
+
+
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+.card{
+  border-radius: 6px;
+  padding: 10px;
+}
+footer{
+border-radius: 1px;
+padding: 5px;
+background-color: rgb(33, 37, 41);
+}
+.game-info {
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-info:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.game-info img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.game-child h3 {
+  font-size: 1.2rem;
+  color:#CCCCCC;
+}
+
+.game-child button {
+  background-color: #0D6EFD;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.game-child button:hover {
+  background-color:#0D6EFD;
+}
+.text{
+  color: #CCCCCC;
+
+}
+
+#gamesDetails {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+#gamesDetails .container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
+
+
